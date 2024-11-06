@@ -1,12 +1,15 @@
-## Hi there 👋
+# Jorjin
 
-<!--
+# Repo介紹
 
-**Here are some ideas to get you started:**
+- [MainApp](https://github.com/Robotlab-Jorjin/MainApp): 最終App的Build的Source Code
+- [VirtualRoomServer](https://github.com/Robotlab-Jorjin/VirtualRoomServer): 通訊系統背後的Server
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Scenario
+
+Download the files from [here](https://github.com/Robotlab-Jorjin/VirtualRoomServer)
+1. 啟動VirtualRoomServer/VirtualRoomServer.exe  
+2. 啟動VirtualRoomServer/Admin/run.bat  
+3. 啟動Networking.exe
+
+第一個加入房間的玩家為Host，後續為一般玩家Player，Host需要維護其他資訊以同步其他使用者。
