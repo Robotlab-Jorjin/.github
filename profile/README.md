@@ -33,5 +33,5 @@ Jorjin Glass最高只支援到API level 28，允許最低為27
 SLAM只支援Armv7下的設備，此外MediapipeUnityPlugin的Prebuild Package支援Armv7最高到v0.14.1，若要升級版本需要自己去Github抓下來自己Build
 
 ## 可能遇到問題
-- Multiple Precompile DLL Error: 刪掉多的Google Protobuf，把JMSDK的Pakage下的Protobuf取代Mediapipe protobuf的，可以從原本package找，也能從這邊下載:[Protobuf載點](https://github.com/Robotlab-Jorjin/VirtualRoomServer/releases/tag/Protobuf)
-- 無法連線到VirtualRoomServer: 有很多原因會導致連線失誤，若是第一次把Repo拉下來打開專案時失誤，可能PlayerVRC被重製了，將場景中PlayerVRC刪掉重拉Prefab
+- Multiple Precompile DLL Error: 無法存在複數個Google Protobuf，詳細看[MainApp/Readme.md](https://github.com/Robotlab-Jorjin/MainApp/blob/main/README.md)
+- 無法連線到VirtualRoomServer: PlayerVRC重置可能是原因之一，詳細看[Networking/Readme.md](https://github.com/Robotlab-Jorjin/Networking/blob/main/README.md)
