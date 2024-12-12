@@ -31,3 +31,7 @@ Jorjin Glass最高只支援到API level 28，允許最低為27
 - Target Architectures: Armv7
   
 SLAM只支援Armv7下的設備，此外MediapipeUnityPlugin的Prebuild Package支援Armv7最高到v0.14.1，若要升級版本需要自己去Github抓下來自己Build
+
+## 可能遇到問題
+- Multiple Precompile DLL Error: 把刪掉多的Google Protobuf，把JMSDK的Pakage下的Protobuf取代Mediapipe protobuf的，[Protobuf載點]()
+- 無法連線到VirtualRoomServer: 有很多原因會導致連線失誤，若是第一次把Repo拉下來打開專案時失誤，可能PlayerVRC被重製了，將場景中PlayerVRC刪掉重拉Prefab
